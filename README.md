@@ -31,10 +31,69 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-
+```
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>
+            BOOK COVER
+        </title>
+        <style>
+            p.ti{
+               font-family:Impact, sans-serif;
+               font-size: 100;
+               color: whitesmoke;
+               text-shadow:10px 7px rgba(0, 0, 0, 0.785);
+               margin-left: 55%;
+               margin-top:35%;
+            }
+            oth{
+                font-family:Impact, sans-serif;
+               font-size: 100;
+               color: whitesmoke;
+               text-shadow:15px 10px rgba(0, 0, 0, 0.785);
+               margin-left: 60%;
+            }
+            subh{
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+                font-size: 30;           
+            }
+            author{
+                font-family: 'Courier New', Courier, monospace;
+                color: whitesmoke;
+                font-size: 40;
+                margin-left: 70%;
+            }
+            su{
+                font-family: 'Snell Roundhand';
+                font-style: italic;
+                color: whitesmoke;
+                text-shadow: 5px 4px black;
+                font-size: 35;
+            }
+        </style>
+    </head>
+    <body background="C:\Users\anish\OneDrive\SEC\FWAD\EX\06\bg 2.jpg">
+        <br>
+        <center><subh>" To find yourself, think for yourself "</subh></center><br>
+        <hr color="white">
+        
+        <p class="ti"> </p><br>
+        <oth>ME</oth><br>
+        <oth>MYSELF</oth><br>
+        <oth>AND I</oth><br><br><br>
+        <su>Fight for your fairytale</su><br><br>
+        <hr color="white" width=40% align="right"><br>
+        <author>V.Anisha</author>
+        
+        
+    </body>
+    </html>
+```
 
 ## OUTPUT:
-
+![alt text](image.png)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
